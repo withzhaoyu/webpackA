@@ -1,0 +1,27 @@
+{
+  "name": "webpacka",
+  "version": "1.0.0",
+  "description": "webpack in action test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --entry=./index.js --output-filename=bundle.js --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/withzhaoyu/webpackA.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "withzhaoyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/withzhaoyu/webpackA/issues"
+  },
+  "homepage": "https://github.com/withzhaoyu/webpackA#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
